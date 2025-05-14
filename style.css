@@ -1,0 +1,54 @@
+.gradient-background {
+    background: linear-gradient(300deg, #084c63, #094b5f, #8889c7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+.carousel-inner {
+  width: 100%;
+  height: auto;
+}
+  .carousel-inner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+  img.center-image {
+    width: 100%;
+    height: auto;
+}
+
+.center-container {
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .pricing-header h1 {
+        font-size: 2rem;
+    }
+    
+    .pricing-header p {
+        font-size: 1rem;
+    }
+
+    .feature-icon img {
+        height: 30px; 
+}
+
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.center-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
